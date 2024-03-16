@@ -1,4 +1,4 @@
-package com.serenitydojo;
+package com.serenitydojo.model;
 
 public class Dog extends Pet {
     private String favoriteToy;
@@ -10,6 +10,7 @@ public class Dog extends Pet {
         super(name, age);
         this.favoriteToy = favoriteToy;
     }
+
 
     public String getFavoriteToy() {
         return favoriteToy;
